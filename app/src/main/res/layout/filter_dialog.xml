@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:background="@color/black"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/redFilter"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:text="@string/red_filter"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/yellowFilter"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:text="@string/red_filter"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/blueFilter"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:text="@string/red_filter"/>
+
+</LinearLayout>
