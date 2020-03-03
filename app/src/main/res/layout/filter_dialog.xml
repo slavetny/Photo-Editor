@@ -18,7 +18,7 @@
         android:layout_width="wrap_content"
         android:layout_height="40dp"
         android:background="@color/white"
-        android:text="@string/red_filter"
+        android:text="@string/yellow_filter"
         android:layout_marginBottom="16dp"/>
 
     <Button
@@ -26,6 +26,6 @@
         android:layout_width="wrap_content"
         android:layout_height="40dp"
         android:background="@color/white"
-        android:text="@string/red_filter"/>
+        android:text="@string/blue_filter"/>
 
 </LinearLayout>

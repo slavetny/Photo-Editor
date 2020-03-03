@@ -13,7 +13,7 @@ public class SelectFilterDialog extends Dialog implements
         View.OnClickListener {
 
     public Activity c;
-    public Button redFilter;
+    public Button redFilter, yellowFilter, blueFilter;
 
     private OnDialogClickListener listener;
 
@@ -31,7 +31,12 @@ public class SelectFilterDialog extends Dialog implements
         setContentView(R.layout.filter_dialog);
 
         redFilter = findViewById(R.id.redFilter);
+        yellowFilter = findViewById(R.id.yellowFilter);
+        blueFilter = findViewById(R.id.blueFilter);
+
         redFilter.setOnClickListener(this);
+        yellowFilter.setOnClickListener(this);
+        blueFilter.setOnClickListener(this);
     }
 
     @Override
@@ -39,6 +44,16 @@ public class SelectFilterDialog extends Dialog implements
         switch (v.getId()) {
             case R.id.redFilter:
                 listener.onDialogImageRunClick(Color.RED);
+
+                dismiss();
+                break;
+            case R.id.yellowFilter:
+                listener.onDialogImageRunClick(Color.YELLOW);
+
+                dismiss();
+                break;
+            case R.id.blueFilter:
+                listener.onDialogImageRunClick(Color.BLUE);
 
                 dismiss();
                 break;

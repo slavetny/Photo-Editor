@@ -4,6 +4,8 @@
     <string name="select_button">Select Photo</string>
 
     <string name="red_filter">Red Filter</string>
+    <string name="yellow_filter">Yellow Filter</string>
+    <string name="blue_filter">Blue Filter</string>
 
     <string name="apiKey">AIzaSyBpLvS7jOuieEqS2uaS0XRoNJ2FctqlIpM
 
