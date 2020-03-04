@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity implements
 
     public void saveImage(Bitmap image) {
         String path = Environment.getExternalStorageDirectory().toString();
-        OutputStream fOutputStream = null;
+        OutputStream fOutputStream;
         File file = new File(path + "/Captures/", "screen.jpg");
         if (!file.exists()) {
             file.mkdirs();
